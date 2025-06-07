@@ -119,22 +119,6 @@ Each is defined with rich metadata and upstream dependencies.
 
 ---
 
-## 📂 Project Structure
-
-embedded_elt_demo/
-├── assets/
-│   ├── derived_assets.py           # Analytics layer
-│   └── sling_assets.py             # Sling replication
-├── data/
-│   └── github_data.duckdb          # DLT target DB
-├── dlt_pipelines.py                # GitHub pipeline
-├── definitions.py                  # Dagster Definitions()
-├── requirements.txt
-└── workspace.yaml
-
-
----
-
 ## 🧭 Running the Project
 
 Start Dagster:
